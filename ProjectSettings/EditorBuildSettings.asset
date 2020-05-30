@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/AHProxy/PlanetShader/DemoScene/Main.unity
+    path: Assets/Scenes/Main.unity
     guid: 4d95ba533d773d140bb3d8f54c5ec072
   m_configObjects: {}
