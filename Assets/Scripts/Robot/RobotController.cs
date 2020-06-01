@@ -44,7 +44,7 @@ public class RobotController : MonoBehaviour
         _iterractArea.OnExitArea -= OnExitOtherRobotArea;
     }
 
-    void OnSelect()
+    private void OnSelect()
     {
         _navMeshAgent.enabled = false;
         _iterractArea.SetActivate(true);
@@ -53,7 +53,7 @@ public class RobotController : MonoBehaviour
            Activate(null);
     }
 
-    void OnDeselect()
+    private void OnDeselect()
     {
         _navMeshAgent.enabled = true;
         _iterractArea.SetActivate(false);
@@ -67,7 +67,7 @@ public class RobotController : MonoBehaviour
         }            
     }
 
-    void OnEnterOtherRobotArea(params object[] param)
+    private void OnEnterOtherRobotArea(params object[] param)
     {
         if(_enteredOtherRobotBehaviourManager == null)
         {
@@ -78,7 +78,7 @@ public class RobotController : MonoBehaviour
         }  
     }
 
-    void OnExitOtherRobotArea(params object[] param)
+    private void OnExitOtherRobotArea(params object[] param)
     {
         if (_enteredOtherRobotBehaviourManager != null)
         {

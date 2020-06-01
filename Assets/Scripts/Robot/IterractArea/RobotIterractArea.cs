@@ -18,6 +18,15 @@ public class RobotIterractArea : MonoBehaviour, IIterractArea
         }
     }
 
+    public void OnTriggerStay(Collider other)
+    {
+        if (IsActive && other.tag == ROBOT_INTERRACT_AREA_TAG)
+        {
+            EnterArea(other.transform.parent.gameObject);
+            Debug.Log("3");
+        }
+    }
+
     public void OnTriggerExit(Collider other)
     {
         if (IsActive && other.tag == ROBOT_INTERRACT_AREA_TAG)
