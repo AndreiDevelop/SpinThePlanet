@@ -559,6 +559,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirstRobot (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5178033562985840500, guid: 6ca421ac70f0cba4da631900178862db,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d1b94c084d2b9748802ba405a9144e9, type: 2}
+    - target: {fileID: 7897222688943987226, guid: 6ca421ac70f0cba4da631900178862db,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d1b94c084d2b9748802ba405a9144e9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
 --- !u!1 &297457046
@@ -1048,6 +1058,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirstRobot (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5178033562985840500, guid: 6ca421ac70f0cba4da631900178862db,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb028eb1142e5fa4abb8d6729310f704, type: 2}
+    - target: {fileID: 7897222688943987226, guid: 6ca421ac70f0cba4da631900178862db,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb028eb1142e5fa4abb8d6729310f704, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
 --- !u!1 &581156189
@@ -1478,6 +1498,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirstRobot (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5178033562985840500, guid: 6ca421ac70f0cba4da631900178862db,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 03a76faf039979043ba50b0f428e6353, type: 2}
+    - target: {fileID: 7897222688943987226, guid: 6ca421ac70f0cba4da631900178862db,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 03a76faf039979043ba50b0f428e6353, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
 --- !u!1 &740448359
@@ -3395,6 +3425,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirstRobot (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5178033562985840500, guid: 6ca421ac70f0cba4da631900178862db,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1466ed98e89f152408fdd13e90de3158, type: 2}
+    - target: {fileID: 7897222688943987226, guid: 6ca421ac70f0cba4da631900178862db,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1466ed98e89f152408fdd13e90de3158, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
 --- !u!1001 &1722209378
@@ -3628,6 +3668,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirstRobot (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5178033562985840500, guid: 6ca421ac70f0cba4da631900178862db,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: af3d4c72adb6f8749a46b013b38f858f, type: 2}
+    - target: {fileID: 7897222688943987226, guid: 6ca421ac70f0cba4da631900178862db,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: af3d4c72adb6f8749a46b013b38f858f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
 --- !u!1 &1871085572
