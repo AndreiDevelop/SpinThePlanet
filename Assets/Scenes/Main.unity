@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
   m_AmbientEquatorColor: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
   m_AmbientGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 3
+  m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: edba9531c8600aa49b155e90f0acdcd6, type: 2}
   m_HaloStrength: 0.5
@@ -128,13 +128,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579916901}
     m_Modifications:
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _timeToChangePathInSeconds
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _walkRadius
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: avoidancePriority
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: m_ObstacleAvoidanceType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -194,17 +202,17 @@ PrefabInstance:
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458558, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -237,13 +245,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 124539795}
-  m_LocalRotation: {x: 0.21261139, y: 0.5225878, z: -0.82513314, w: -0.029218705}
+  m_LocalRotation: {x: 0.3625456, y: 0.16335793, z: -0.89100057, w: -0.21907249}
   m_LocalPosition: {x: -3.24, y: 0, z: -9.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1411365473}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 481.79, y: -226.385, z: -30.887001}
+  m_LocalEulerAnglesHint: {x: 532.4, y: -226.385, z: -30.887001}
 --- !u!108 &124539797
 Light:
   m_ObjectHideFlags: 0
@@ -460,13 +468,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579916901}
     m_Modifications:
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _timeToChangePathInSeconds
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _walkRadius
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: avoidancePriority
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: m_ObstacleAvoidanceType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -526,17 +542,17 @@ PrefabInstance:
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458558, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -941,13 +957,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579916901}
     m_Modifications:
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _timeToChangePathInSeconds
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _walkRadius
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: avoidancePriority
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: m_ObstacleAvoidanceType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -1007,17 +1031,17 @@ PrefabInstance:
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458558, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -1363,13 +1387,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579916901}
     m_Modifications:
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _timeToChangePathInSeconds
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _walkRadius
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: avoidancePriority
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: m_ObstacleAvoidanceType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -1429,17 +1461,17 @@ PrefabInstance:
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458558, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -1945,13 +1977,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579916901}
     m_Modifications:
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _timeToChangePathInSeconds
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _walkRadius
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: avoidancePriority
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: m_ObstacleAvoidanceType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -2011,17 +2051,17 @@ PrefabInstance:
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458558, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -2075,13 +2115,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579916901}
     m_Modifications:
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _timeToChangePathInSeconds
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _walkRadius
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: avoidancePriority
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: m_ObstacleAvoidanceType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -2141,17 +2189,17 @@ PrefabInstance:
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458558, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -3256,13 +3304,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579916901}
     m_Modifications:
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _timeToChangePathInSeconds
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _walkRadius
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: avoidancePriority
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: m_ObstacleAvoidanceType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -3322,17 +3378,17 @@ PrefabInstance:
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458558, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -3481,13 +3537,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579916901}
     m_Modifications:
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _timeToChangePathInSeconds
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _walkRadius
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: avoidancePriority
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: m_ObstacleAvoidanceType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -3547,17 +3611,17 @@ PrefabInstance:
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458558, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -3856,13 +3920,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579916901}
     m_Modifications:
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _timeToChangePathInSeconds
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _walkRadius
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: avoidancePriority
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: m_ObstacleAvoidanceType
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -3922,17 +3994,17 @@ PrefabInstance:
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458558, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -4168,9 +4240,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1579916901}
     m_Modifications:
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _timeToChangePathInSeconds
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425175207, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: _walkRadius
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
       propertyPath: m_ObstacleAvoidanceType
-      value: 2
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425175208, guid: 6ca421ac70f0cba4da631900178862db, type: 3}
+      propertyPath: avoidancePriority
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
@@ -4230,17 +4314,17 @@ PrefabInstance:
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458557, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4820908676502458558, guid: 6ca421ac70f0cba4da631900178862db,
         type: 3}
